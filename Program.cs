@@ -73,7 +73,3 @@ catch
     // Pause for user to press any key
     Console.ReadKey(true);
 } // End of catch
-
-
-
-
