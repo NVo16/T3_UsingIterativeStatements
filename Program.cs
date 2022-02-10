@@ -4,7 +4,7 @@
     Date: 02/06/2022
     Assignment: T-3 Using Iterative Statements
     Description: This C# Console application code demonstrates the use of iterative 
-    statement after getting input from users
+    statement after getting input from users.
 */
 // Ask the user for the input
 Console.Write("Please Enter the CAD Increment Value: ");
