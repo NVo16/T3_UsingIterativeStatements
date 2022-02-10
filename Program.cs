@@ -14,18 +14,18 @@ Console.Write("Please Enter the CAD Increment Value: ");
 */
 try
 {
-    // Declare variale to store user input
+    // Declare variable to store user input
     string input = Console.ReadLine();
-    // Declare variale to perform the iterative statement and be parsed as a decimal literal from the user input
+    // Declare variable to perform the iterative statement and be parsed as a decimal literal from the user input
     decimal incrementValue = decimal.Parse(input);
-    // Declare variale for the minimum and maximum CAD Increment Value
+    // Declare variable for the minimum and maximum CAD Increment Value
     const decimal MIN_INCREMENT_VALUE = 5m;
     const decimal MAX_INCREMENT_VALUE = 25m;
-    // Declare variale to store the CAD dollar value
+    // Declare variable to store the CAD dollar value
     decimal cadValue = 0m;
     // Declare variable for the maximum CAD dollar value
     const decimal MAX_CAD_VALUE = 200m;
-    // Declare variale to store the US dollar value
+    // Declare variable to store the US dollar value
     decimal usValue = 0m;
     // Declare variable for the value converting the CAD dollar value to US dollar value
     const double CONVERSION_VALUE = 0.792367;
